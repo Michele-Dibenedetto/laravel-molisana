@@ -10,7 +10,11 @@
                 @if ($pasta["tipo"] == "lunga")
                     <div class="card">
                         <img src="{{$pasta['src']}}" alt="">
+                        <div class="layover">
+                            <p>{{$pasta["titolo"]}}</p>
+                        </div>
                     </div>
+                   
                 @endif
             @endforeach
         </div> 
@@ -20,7 +24,11 @@
                 @if ($pasta["tipo"] == "corta")
                     <div class="card">
                         <img src="{{$pasta['src']}}" alt="">
+                        <div class="layover">
+                            <p>{{$pasta["titolo"]}}</p>
+                        </div>
                     </div>
+                    
                 @endif
             @endforeach
         </div> 
@@ -30,7 +38,11 @@
                 @if ($pasta["tipo"] == "cortissima")
                     <div class="card">
                         <img src="{{$pasta['src']}}" alt="">
+                        <div class="layover">
+                            <p>{{$pasta["titolo"]}}</p>
+                        </div>
                     </div>
+                    
                 @endif
             @endforeach
         </div>

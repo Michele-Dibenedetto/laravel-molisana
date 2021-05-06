@@ -1,0 +1,25 @@
+header {
+    height: 170px;
+    text-align: center;
+    nav{
+        ul {
+            list-style: none;
+            li {
+                display: inline;
+                margin: 0 5px;
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-size: 22px;
+                    &:hover {
+                        background-color: lightblue
+                    } 
+                }
+            }
+        }
+    } 
+}
+
+.logo {
+    width: 225px;
+}

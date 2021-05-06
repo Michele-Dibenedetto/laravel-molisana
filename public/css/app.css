@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 170px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 5px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+
+header nav ul li a:hover {
+  background-color: lightblue;
+}
+
+.logo {
+  width: 225px;
+}
+
+.jumb {
+  height: 500px;
+  width: 100%;
+  background-image: url(/images/molisana-home.jpg?cb7db241726fb646d7e1c8553429c07c);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.container_products {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container_card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.card {
+  position: relative;
+  width: calc(100% / 3);
+}
+
+.card img {
+  width: 100%;
+}
+
+.layover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff87;
+  opacity: 0;
+}
+
+.layover:hover {
+  opacity: 1;
+}
+
+.layover p {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #d41bc5;
+}
+
+footer {
+  margin-top: 20px;
+}
+
