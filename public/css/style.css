@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* HEADER */
+header {
+    height: 170px;
+    text-align: center;
+}
+
+.logo {
+    width: 225px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+/* MAIN */
+/* HOME */
+.jumb {
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/molisana-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+/* PRODUCTS */
+.container_products {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container_card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.card {
+    width: calc(100% / 3);
+}
+
+.card img {
+    width: 100%;
+}
+/* FOOTER */
+footer {
+    margin-top: 20px
+}
